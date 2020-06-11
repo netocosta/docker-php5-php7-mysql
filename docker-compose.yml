@@ -1,0 +1,51 @@
+version: "3"
+
+services:
+  php5:
+    build:
+      dockerfile: php5.dockerfile
+      context: .
+    image: netocosta/php5.6-apache-mysql
+    container_name: php5-server
+    ports:
+      - "8085:80"
+      - "8086:443"
+    volumes:
+      - ./php5:/var/www/html
+    depends_on:
+      - mysql
+    networks:
+      - network_private
+
+  php7:
+    build:
+      dockerfile: php7.dockerfile
+      context: .
+    image: netocosta/php7.4-apache-mysql
+    container_name: php7-server
+    ports:
+      - "8087:80"
+      - "8088:443"
+    volumes:
+      - ./php7:/var/www/html
+    depends_on:
+      - mysql
+    networks:
+      - network_private
+
+  mysql:
+    image: mysql:5.7
+    container_name: mysql-server
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=secret
+      - MYSQL_DATABASE=db_docker
+    networks:
+      - network_private
+
+networks:
+  network_private:
+    driver: bridge
