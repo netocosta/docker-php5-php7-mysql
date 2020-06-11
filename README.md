@@ -14,7 +14,7 @@ Não utilizem estes containers em produção, estão configurados apenas para te
 <b>Como instalar.</b>
 
 1. Clone este repositório do git no seu computador.
-   git clone \***\*\*\*\***
+   git clone https://github.com/netocosta/docker-php5-php7-mysql
 
 2. Descompacte o arquivo "mysql_data.zip".
    unzip mysql_data.zip
