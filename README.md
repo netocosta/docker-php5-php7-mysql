@@ -32,6 +32,11 @@ O servidor PHP5 está configurado para rodar na porta 8085.<br />
 O servidor PHP7 está configurado para rodar na porta 8087.<br />
 O servidor MySQL está configurado para rodar na porta padrão 3306.<br />
 <br />
+<b>Como acessar.</b><br />
+<br />
+Acesse pelo navegador: http://localhost:port/
+Onde, a porta são as informadas anteriormente: 8085 para o php5, e 8087 para o php7.
+<br />
 <b>Arvore de arquivos</b><br />
 .<br />
 │ docker-compose.yml -> Arquivo do docker-compose<br />
