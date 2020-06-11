@@ -44,11 +44,11 @@ Onde, a porta são as informadas anteriormente: 8085 para o php5, e 8087 para o 
 │ php5.dockerfile -> Dockerfile do PHP5<br />
 │ php7.dockerfile -> Dockerfile do PHP7<br />
 │ README.md -> README do GIT<br />
-│<br />
-├───php5 -> Diretório do host do php5.<br />
+|<br />
+├─── php5 -> Diretório do host do php5.<br />
 │ index.php -> Arquivo index para teste.<br />
 │<br />
-└───php7 -> Diretório do host do php7.<br />
+└─── php7 -> Diretório do host do php7.<br />
 index.php -> Arquivo index para teste.<br />
 <br />
 <b>Volumes do Docker</b><br />
