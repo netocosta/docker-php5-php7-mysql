@@ -34,8 +34,8 @@ O servidor MySQL está configurado para rodar na porta padrão 3306.<br />
 <br />
 <b>Como acessar.</b><br />
 <br />
-Acesse pelo navegador: http://localhost:port/
-Onde, a porta são as informadas anteriormente: 8085 para o php5, e 8087 para o php7.
+Acesse pelo navegador: http://localhost:port/<br />
+Onde, a porta são as informadas anteriormente: 8085 para o php5, e 8087 para o php7.<br />
 <br />
 <b>Arvore de arquivos</b><br />
 .<br />
