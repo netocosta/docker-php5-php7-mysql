@@ -1,5 +1,10 @@
 # Docker - Servidor PHP5, PHP7 e Mysql
 
+<b>Requisitos</b>
+
+Internet ;-)
+Docker
+
 <b>Porque usar?</b>
 Esses containers, inicialmente, foram montador para mostrar como converter as funcoes mysql*\*() do PHP5 para as funções mysqli*\*() do PHP7. Porém seu uso pode ter infinitos objetivos.
 
