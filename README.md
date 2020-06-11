@@ -7,7 +7,7 @@ Internet ;-)<br />
 Docker<br />
 <br />
 <b>Porque usar?</b><br />
-Esses containers, inicialmente, foram montador para mostrar como converter as funcoes mysql*\*() do PHP5 para as funções mysqli*\*() do PHP7. Porém seu uso pode ter infinitos objetivos.<br />
+Esses containers, inicialmente, foram montador para mostrar como converter as funcoes mysql*() do PHP5 para as funções mysqli*() do PHP7. Porém seu uso pode ter infinitos objetivos.<br />
 <br />
 <b>Alerta</b><br />
 Não utilizem estes containers em produção, estão configurados apenas para testes rápidos.<br />
