@@ -2,9 +2,6 @@ version: "3"
 
 services:
   php5:
-    build:
-      dockerfile: php5.dockerfile
-      context: .
     image: netocosta/php5.6-apache-mysql
     container_name: php5-server
     ports:
@@ -18,10 +15,7 @@ services:
       - network_private
 
   php7:
-    build:
-      dockerfile: php7.dockerfile
-      context: .
-    image: netocosta/php7.4-apache-mysql
+    image: netocosta/php7.4-apache-mysqli
     container_name: php7-server
     ports:
       - "8087:80"

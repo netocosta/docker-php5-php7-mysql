@@ -20,10 +20,7 @@ Não utilizem estes containers em produção, estão configurados apenas para te
 2. Descompacte o arquivo "mysql_data.zip".<br />
    unzip mysql_data.zip<br />
 <br />
-3. Execute o build do docker-compose.<br />
-   docker-compose build<br />
-<br />
-4. Levante os conteiners.<br />
+3. Levante os conteiners, o docker-compose irá baixar as imagens.<br />
    docker-compose up -d<br />
 <br />
 <b>O que temos</b><br />
@@ -41,15 +38,13 @@ Onde, a porta são as informadas anteriormente: 8085 para o php5, e 8087 para o 
 .<br />
 │ docker-compose.yml -> Arquivo do docker-compose<br />
 │ mysql_data.zip -> Dados do MySQL<br />
-│ php5.dockerfile -> Dockerfile do PHP5<br />
-│ php7.dockerfile -> Dockerfile do PHP7<br />
 │ README.md -> README do GIT<br />
 |<br />
-├─── php5 -> Diretório do host do php5.<br />
-│ index.php -> Arquivo index para teste.<br />
+| php5 -> Diretório do host do php5.<br />
+├── index.php -> Arquivo index para teste.<br />
 │<br />
-└─── php7 -> Diretório do host do php7.<br />
-index.php -> Arquivo index para teste.<br />
+│ php7 -> Diretório do host do php7.<br />
+├── index.php -> Arquivo index para teste.<br />
 <br />
 <b>Volumes do Docker</b><br />
 <br />
@@ -59,7 +54,7 @@ O docker-compose está configurado para que os arquivos principais sejam "hosped
 ./php5/ -> suas alteracoes nos arquivos do php5<br />
 ./php7/ -> suas alterações nos arquivos do php7<br />
 <br />
-A qualquer momento, basta efetuar o passos 2, 3 e 4 do "Como Instalar" e tudo estará funcionando da mesma maneira.<br />
+A qualquer momento, basta efetuar o passos 2 e 3 do "Como Instalar" e tudo estará funcionando da mesma maneira.<br />
 <br />
 <b>Bom uso!</b><br />
 <br />
