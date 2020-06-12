@@ -25,6 +25,10 @@ Não utilizem estes containers em produção, estão configurados apenas para te
 
 3. Levante os conteiners, o docker-compose irá baixar as imagens.
    > docker-compose up -d
+   
+#### Ainda em dúvidas de como instalar? Assista o Vídeo!
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/I8qMMCzo5VI/0.jpg)](https://www.youtube.com/watch?v=I8qMMCzo5VI)
 
 ### O que temos
 
