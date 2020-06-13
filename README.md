@@ -28,7 +28,7 @@ Não utilizem estes containers em produção, estão configurados apenas para te
    
 #### Ainda em dúvidas de como instalar? Assista o Vídeo!
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/I8qMMCzo5VI/0.jpg)](https://www.youtube.com/watch?v=I8qMMCzo5VI)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/GZZkrCcWuU4/0.jpg)](https://www.youtube.com/watch?v=GZZkrCcWuU4)
 
 ### O que temos
 
