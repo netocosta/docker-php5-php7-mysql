@@ -6,7 +6,6 @@ services:
     container_name: php5-server
     ports:
       - "8085:80"
-      - "8086:443"
     volumes:
       - ./php5:/var/www/html
     depends_on:
@@ -15,11 +14,10 @@ services:
       - network_private
 
   php7:
-    image: netocosta/php7.4-apache-mysqli
+    image: netocosta/php7.4-apache
     container_name: php7-server
     ports:
       - "8087:80"
-      - "8088:443"
     volumes:
       - ./php7:/var/www/html
     depends_on:
